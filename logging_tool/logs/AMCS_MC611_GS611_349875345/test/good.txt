@@ -1,0 +1,9 @@
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client testing, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[32m[2025-01-31T12:00:04+00:00] INFO: Synchronizing cookbooks\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 12 resources\u001b[0m
+\u001b[32m[2025-01-31T12:00:06+00:00] INFO: Successfully installed package 'nginx'\u001b[0m
+\u001b[32m[2025-01-31T12:00:07+00:00] INFO: Template[/etc/nginx/nginx.conf] updated\u001b[0m
+\u001b[32m[2025-01-31T12:00:08+00:00] INFO: Service[nginx] started successfully\u001b[0m
+\u001b[32m[2025-01-31T12:00:09+00:00] INFO: Chef Client finished, 12 resources updated in 8 seconds\u001b[0m

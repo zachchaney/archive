@@ -1,0 +1,1040 @@
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
+\u001b[32m[2025-01-31T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7\u001b[0m
+\u001b[36m[2025-01-31T12:00:02+00:00] DEBUG: Running Ohai plugin\u001b[0m
+\u001b[32m[2025-01-31T12:00:03+00:00] INFO: Loading cookbooks\u001b[0m
+\u001b[33m[2025-01-31T12:00:04+00:00] WARN: Deprecated resource used: 'execute' without 'live_stream' option\u001b[0m
+\u001b[32m[2025-01-31T12:00:05+00:00] INFO: Converging 10 resources\u001b[0m
+\u001b[31m[2025-01-31T12:00:06+00:00] ERROR: Execution failed: service[nginx] (webserver::default line 45) had an error\u001b[0m
+\u001b[36m[2025-01-31T12:00:07+00:00] DEBUG: Backtrace: /var/chef/cache/cookbooks/webserver/recipes/default.rb:45\u001b[0m
+\u001b[31m[2025-01-31T12:00:08+00:00] FATAL: Chef run failed due testing an unexpected error\u001b[0m
