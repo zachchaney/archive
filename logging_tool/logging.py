@@ -5,7 +5,7 @@ import urllib.parse
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 BASE_DIR = os.path.abspath('logs')
-JAVASCRIPT = '/static/script.js?v=1.0.3'
+JAVASCRIPT = '/static/script.js?v=1.0.4'
 
 # Symbols in HTML code
 RED = '#ff0000'
@@ -37,7 +37,7 @@ ANSI_COLORS = {
 }
 
 # ANSI_ESCAPE_RE = re.compile(r'\\u001b\[(\d+)(?:;(\d+))?(?:;(\d+))?m')
-ANSI_ESCAPE_RE = re.compile(r'\\u001b\[([1-9]+)(?:;(\d+))?(?:;(\d+))?m')
+ANSI_ESCAPE_RE = re.compile(r'^\[\[([1-9]+)(?:;(\d+))?(?:;(\d+))?m')
 
 # Used as a unique identifier for JavaScript
 initial_time = str(datetime.datetime.now())
@@ -54,7 +54,7 @@ def ansi_to_html(text):
     text = ANSI_ESCAPE_RE.sub(replace_ansi, text)
 
     # Close spans when the reset code \u001b[0m is found
-    text = text.replace("\\u001b[0m", "</span>")
+    text = text.replace("^[[0m", "</span>")
     return text
 
 
@@ -128,6 +128,10 @@ class CustomHandler(SimpleHTTPRequestHandler):
             <script src={JAVASCRIPT} defer></script>
         </head>
         <body>
+            <div class="sidebar-header">
+                <div>Mission Deployment <br/>Automation Logs</div><br/>
+                <div><input type="text" id="search" placeholder="Search files..."></div>
+            </div>
             <div class="sidebar">
                 {sidebar_html}
             </div>
@@ -264,11 +268,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
             html += "</ul>"
             return html, directory_contains_error
 
-        return f'''
-            <h2>Mission Deployment Automation Logs</h2>
-            <input type="text" id="search" placeholder="Search files...">
-            {build_tree(base_path)[0]}
-            '''
+        return f'''{build_tree(base_path)[0]}'''
     
 
 def main(server_class=HTTPServer, handler_class=CustomHandler, port=8000):

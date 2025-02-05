@@ -2,18 +2,26 @@ document.addEventListener("DOMContentLoaded", function () {
 	const titleContainer = document.getElementById("file-title");
     const contentContainer = document.getElementById("file-content");
 	const sidebarContainer = document.querySelector(".sidebar");
+	const searchInput = document.getElementById("search"); // Sidebar search input
 	const folderStates = JSON.parse(localStorage.getItem("folderStates")) || {};
-	
+	let isUserInteracting = false; // Flag to prevent auto-refresh conflicts
 	let currentFilePath = localStorage.getItem("lastViewedFile") || null;  // Store the currently viewed file
 	
 	const TRIANGLE_DOWN = '\u25BC'
 	const TRIANGLE_RIGHT = '\u25B6'
 	
-	function fetchFileContent(filePath, updateHistory = true) {
+	function fetchFileContent(filePath, updateHistory = true, fromUserClick = false) {
 		if (!filePath) return;  // Avoid fetching when no file is selected
+		
+		if (fromUserClick) {
+            isUserInteracting = true; // Stop auto-refresh interference
+            setTimeout(() => (isUserInteracting = false), 1500); // Resume auto-refresh after delay
+        }
+		
         fetch(`/get_file_content?path=${encodeURIComponent(filePath)}`)
             .then(response => response.text())
             .then(newContent => {
+				if (!fromUserClick && currentFilePath !== filePath) return; // Prevent outdated responses
 				titleContainer.innerText = decodeURIComponent(filePath); // Show relative path
 				
                 if (contentContainer.innerHTML !== newContent) {
@@ -31,6 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 	
 	function fetchSidebarUpdate() {
+		const searchQuery = searchInput.value.toLowerCase(); // Get current search term
+		
         fetch("/get_sidebar")
             .then(response => response.text())
             .then(newSidebar => {
@@ -42,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
 				
 				restoreFolderStates(folderStates); // Restore states after update
                 attachSidebarListeners(); // Reattach event listeners after update
+				
+				applySearchFilter(searchQuery); // Reapply search after updating sidebar
             })
             .catch(error => console.error("Error fetching sidebar:", error));
     }
@@ -82,6 +94,18 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+	
+	
+	function applySearchFilter(query) {
+        document.querySelectorAll(".sidebar li").forEach(item => {
+            const text = item.innerText.toLowerCase();
+            if (text.includes(query)) {
+                item.style.display = "block";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    }
 
 
     function attachSidebarListeners() {
@@ -107,14 +131,13 @@ document.addEventListener("DOMContentLoaded", function () {
 		document.querySelectorAll(".file-link").forEach(link => {
 			link.addEventListener("click", function (event) {
 				event.preventDefault();
-				fetchFileContent(this.dataset.path);
+				fetchFileContent(this.dataset.path, true, true);
 			});
         });
     }
 	
 
     // Search functionality
-    const searchInput = document.getElementById("search");
     searchInput.addEventListener("input", function () {
         let filter = this.value.toLowerCase();
         document.querySelectorAll(".sidebar ul li").forEach(item => {
@@ -136,8 +159,11 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 	attachSidebarListeners()
 	
-	setInterval(() => fetchFileContent(currentFilePath, false), 3000);	// Refresh content
 	setInterval(fetchSidebarUpdate, 5000); // Refresh sidebar
+	
+	setInterval(() => {
+        if (!isUserInteracting) fetchFileContent(currentFilePath, false);
+    }, 3000);
 	
 	// Load last viewed file on page refresh
     if (currentFilePath) {
@@ -145,4 +171,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 	
 });
+
+
 

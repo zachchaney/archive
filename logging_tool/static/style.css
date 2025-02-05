@@ -1,3 +1,7 @@
+:root {
+	--sidebar-header-height: 90px;
+}
+
 body {
     display: flex;
     font-family: Arial, sans-serif;
@@ -5,16 +9,37 @@ body {
     padding: 0;
 }
 
+.sidebar-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    height: var(--sidebar-header-height); /* Adjust height as needed */
+    background: #333;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+	font-size: 20px;
+    z-index: 1000; /* Ensures it stays on top */
+}
+
 .sidebar {
+	position: fixed;
+	top: calc(var(--sidebar-header-height) + 20px); /* Offset by the height of the top box */
     width: 260px;
     background: #333;
     color: white;
     padding-left: 10px;
 	padding-right: 10px;
-    height: 100vh;
+    height: calc(100vh - var(--sidebar-header-height) - 20px); /* Full height minus top box */
 	
     overflow-y: auto;
 	transition: background 0.3s, color 0.3s;
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	scrollbar-color: #888 #f0f0f0;
 }
 
 .sidebar a:hover, .sidebar span:hover {
@@ -34,16 +59,16 @@ body {
 
 .sidebar li {
 	white-space: nowrap;
-	vertical-align: middle;
 }
 
 .sidebar a {
     color: white;
     text-decoration: none;
+	min-height: 30px;
+	display: block;
 }
 
 .sidebar span {
-	vertical-align: middle;
 	min-height: 30px;
 }
 
@@ -61,6 +86,8 @@ body {
 .content {
     flex-grow: 1;
     padding: 20px;
+	
+    margin-left: 280px; /* Same as sidebar width + its padding*/
 }
 
 pre {
@@ -76,4 +103,6 @@ search {
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
+	
+	display: block;
 }
