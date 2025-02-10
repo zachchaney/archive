@@ -1,0 +1,14 @@
+[32m[2025-02-09T12:05:01+00:00] INFO: Starting Chef Client, version 18.2.7[0m
+[32m[2025-02-09T12:05:01+00:00] INFO: Running on node my-chef-node[0m
+[36m[2025-02-09T12:05:02+00:00] DEBUG: Loading cookbooks[0m
+[32m[2025-02-09T12:05:02+00:00] INFO: Synchronizing cookbooks[0m
+[32m[2025-02-09T12:05:02+00:00] INFO: Installing Cookbook my_cookbook[0m
+[32m[2025-02-09T12:05:03+00:00] INFO: Compiling cookbooks...[0m
+[36m[2025-02-09T12:05:03+00:00] DEBUG: Converging node my-chef-node[0m
+[32m[2025-02-09T12:05:04+00:00] INFO: Processing package[nginx] action install[0m
+[31m[2025-02-09T12:05:05+00:00] ERROR: package[nginx] (my_cookbook::default line 12) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '100'[0m
+[31m[2025-02-09T12:05:05+00:00] ERROR: ---- Begin output of apt-get -q -y install nginx=1.18.0 ----[0m
+[31m[2025-02-09T12:05:05+00:00] ERROR: STDOUT: Reading package lists...[0m
+[31m[2025-02-09T12:05:05+00:00] ERROR: STDERR: E: Unable to locate package nginx[0m
+[31m[2025-02-09T12:05:05+00:00] ERROR: ---- End output of apt-get -q -y install nginx=1.18.0 ----[0m
+[31m[2025-02-09T12:05:06+00:00] FATAL: Chef Client run failed. 1 resources updated in 5 seconds[0m

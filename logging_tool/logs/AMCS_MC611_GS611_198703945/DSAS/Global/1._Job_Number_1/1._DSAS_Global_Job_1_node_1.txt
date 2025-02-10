@@ -1,0 +1,13 @@
+[32m[2025-02-09T12:00:01+00:00] INFO: Starting Chef Client, version 18.2.7[0m
+[32m[2025-02-09T12:00:01+00:00] INFO: Running on node my-chef-node[0m
+[36m[2025-02-09T12:00:02+00:00] DEBUG: Loading cookbooks[0m
+[32m[2025-02-09T12:00:02+00:00] INFO: Synchronizing cookbooks[0m
+[32m[2025-02-09T12:00:02+00:00] INFO: Installing Cookbook my_cookbook[0m
+[32m[2025-02-09T12:00:03+00:00] INFO: Compiling cookbooks...[0m
+[36m[2025-02-09T12:00:03+00:00] DEBUG: Converging node my-chef-node[0m
+[32m[2025-02-09T12:00:04+00:00] INFO: Processing template[/etc/myconfig.conf] action create[0m
+[32m[2025-02-09T12:00:04+00:00] INFO: Template created at /etc/myconfig.conf[0m
+[32m[2025-02-09T12:00:05+00:00] INFO: Processing service[apache2] action restart[0m
+[32m[2025-02-09T12:00:06+00:00] INFO: Service apache2 restarted successfully[0m
+[32m[2025-02-09T12:00:07+00:00] INFO: Chef Client run completed in 6 seconds[0m
+[32m[2025-02-09T12:00:07+00:00] INFO: Updated 2 resources[0m

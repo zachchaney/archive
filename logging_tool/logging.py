@@ -1,18 +1,34 @@
 import os
 import re
 import datetime
+import webbrowser
 import urllib.parse
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 BASE_DIR = os.path.abspath('logs')
-JAVASCRIPT = '/static/script.js?v=1.0.4'
+JAVASCRIPT = '/static/script.js?v=1.0.5'
 
-# Symbols in HTML code
-RED = '#ff0000'
-GREEN = '#0BDA51'
+# Symbols and colors
 CIRCLE = '&#11044;'
 TRIANGLE_DOWN = '&#9660;'
 TRIANGLE_RIGHT = '&#9654;'
+
+COLOR_SUCCESS = '#0BDA51'
+COLOR_FAILURE = '#ff0000'
+COLOR_RETRY = '#dddf02'
+COLOR_UNKNOWN = '#cccccc'
+COLOR_OVERRIDE = '#b47bf3'
+
+# This needs to be ordered and dictionaries are only ordered in 3.7+
+# We need to check for messages in a particular order and assign colors
+message_colors = [("Override button pressed!", COLOR_OVERRIDE),
+                   ("Command sent to retry failed job!", COLOR_RETRY),
+                   ("FATAL:", COLOR_FAILURE),
+                   ("Chef Run complete", COLOR_SUCCESS),
+                   ("", COLOR_UNKNOWN)]
+# The colors will bubble up given this priority
+color_priority = [COLOR_UNKNOWN, COLOR_FAILURE, COLOR_OVERRIDE, COLOR_RETRY, COLOR_SUCCESS]
+
 
 # ANSI escape code to HTML style mapping
 ANSI_COLORS = {
@@ -37,7 +53,7 @@ ANSI_COLORS = {
 }
 
 # ANSI_ESCAPE_RE = re.compile(r'\\u001b\[(\d+)(?:;(\d+))?(?:;(\d+))?m')
-ANSI_ESCAPE_RE = re.compile(r'^\[\[([1-9]+)(?:;(\d+))?(?:;(\d+))?m')
+ANSI_ESCAPE_RE = re.compile(r'\[([1-9]+)(?:;(\d+))?(?:;(\d+))?m')
 
 # Used as a unique identifier for JavaScript
 initial_time = str(datetime.datetime.now())
@@ -48,13 +64,13 @@ def ansi_to_html(text):
     def replace_ansi(match):
         codes = match.groups()
         styles = [ANSI_COLORS.get(code, "") for code in codes if code]
-        return f'<span style="{" ".join(styles)}">'
+        return '<span style="{}">'.format(" ".join(styles))
 
     # Replace ANSI codes with styled <span> elements
     text = ANSI_ESCAPE_RE.sub(replace_ansi, text)
 
     # Close spans when the reset code \u001b[0m is found
-    text = text.replace("^[[0m", "</span>")
+    text = text.replace("[0m", "</span>")
     return text
 
 
@@ -120,108 +136,46 @@ class CustomHandler(SimpleHTTPRequestHandler):
 
         sidebar_html = self.generate_sidebar(BASE_DIR)
 
-        self.wfile.write(f"""
+        self.wfile.write("""
         <html>
         <head>
             <title>File Viewer</title>
             <link rel="stylesheet" type="text/css" href="/static/style.css">
-            <script src={JAVASCRIPT} defer></script>
+            <script src={} defer></script>
         </head>
         <body>
-            <div class="sidebar-header">
-                <div>Mission Deployment <br/>Automation Logs</div><br/>
-                <div><input type="text" id="search" placeholder="Search files..."></div>
-            </div>
             <div class="sidebar">
-                {sidebar_html}
+                <div class="sidebar-header">
+                    <div class="sidebar-title">Mission Deployment <br/>Automation Logs</div>
+                    <div class="sidebar-search"><input type="text" id="search" placeholder="Search files..."></div>
+                </div>
+                <div class="sidebar-content">
+                    {}
+                </div>
+                <div class="sidebar-key">
+                    <span style="color:{};">{}</span> Unknown >
+                    <span style="color:{};">{}</span> Failure ><br/>
+                    <span style="color:{};">{}</span> Override >
+                    <span style="color:{};">{}</span> Retry >
+                    <span style="color:{};">{}</span> Success
+                </div>
+                <div class="resize-handle"></div>
             </div>
-            <div class="content">
-                <h2 id="file-title">Select a file</h2>
-                <pre id="file-content">Click on a file to view its content.</pre>
+            <div class="content" id="content">
+                <h2 class="file-title">Select a file</h2>
+                <pre class="file-content">Click on a file to view its content.</pre>
             </div>
         </body>
         </html>
-        """.encode())
-
-
-
-    def list_directory(self, dir_path):
-        try:
-            entries = os.listdir(dir_path)
-            entries.sort()
-            relative_path = os.path.relpath(dir_path, BASE_DIR)
-
-            self.send_response(200)
-            self.send_header("Content-type", "text/html")
-            self.end_headers()
-
-            self.wfile.write(f"""
-            <html>
-            <head>
-                <title>Directory: {relative_path}</title>
-                <link rel="stylesheet" type="text/css" href="/static/style.css">
-                <script src={JAVASCRIPT} defer></script>
-            </head>
-            <body>
-                <div class="sidebar">
-                    {self.generate_sidebar(BASE_DIR)}
-                </div>
-                <div class="content">
-                    <h2>{relative_path}</h2>
-                    <ul>
-            """.encode())
-
-            for entry in entries:
-                full_path = os.path.join(dir_path, entry)
-                url_path = urllib.parse.quote(os.path.join(relative_path, entry).replace("\\", "/"))
-                display_name = entry + ("/" if os.path.isdir(full_path) else "")
-                self.wfile.write(f'<li><a href="/{url_path}">{display_name}</a></li>'.encode())
-
-            self.wfile.write(b"</ul></div></body></html>")
-
-        except OSError:
-            self.send_error(404, "Directory not found")
-            
-
-    def serve_text_file(self, file_path):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                content = f.read()
-                
-            content = ansi_to_html(content)  # Convert ANSI to HTML
-
-            relative_path = os.path.relpath(file_path, BASE_DIR)
-            self.send_response(200)
-            self.send_header("Content-type", "text/html")
-            self.end_headers()
-            self.wfile.write(f"""
-            <html>
-            <head>
-                <title>{relative_path}</title>
-                <link rel="stylesheet" type="text/css" href="/static/style.css">
-                <script src={JAVASCRIPT} defer></script>
-            </head>
-            <body data-file-path="{relative_path}">
-                <div class="sidebar">
-                    {self.generate_sidebar(BASE_DIR)}
-                </div>
-                <div class="content">
-                    <h2>{relative_path}</h2>
-                    <pre id="file-content">{content}</pre>
-                </div>
-            </body>
-            </html>
-            """.encode())
-
-        except OSError:
-            self.send_error(404, "File not found")
-            
+        """.format(JAVASCRIPT, sidebar_html, COLOR_UNKNOWN, CIRCLE, COLOR_FAILURE, CIRCLE, COLOR_OVERRIDE, CIRCLE, COLOR_RETRY, CIRCLE, COLOR_SUCCESS, CIRCLE).encode())
+               
 
     def generate_sidebar(self, base_path):
         def build_tree(path, rel_path=""):
             items = sorted(os.listdir(path))  # Sort items alphabetically
             html = "<ul>"
-            directory_contains_error = False  # Track if any file inside has "Error"
+            # dir_color_priority is the index in color_priority
+            dir_color_priority = len(color_priority)-1
             
             for item in items:
                 full_path = os.path.join(path, item)
@@ -231,51 +185,54 @@ class CustomHandler(SimpleHTTPRequestHandler):
                 
                 display_name = item  # Default display name
                 item_contains_error = False  # Track errors for this item
+                item_color_priority = len(color_priority)-1
 
                 # If it's a file, check for "Error"
                 if os.path.isfile(full_path):
                     try:
                         with open(full_path, "r", encoding="utf-8") as f:
                             content = f.read()
-                        if "ERROR" in content:
-                            display_name = f'<span style="color:{RED};">{CIRCLE}</span> {item}'  # Prefix warning symbol
-                            item_contains_error = True
-                        else:
-                            display_name = f'<span style="color:{GREEN};">{CIRCLE}</span> {item}'
+                            
+                        for message in message_colors:
+                            if message[0] in content:
+                                file_color = message[1]
+                                item_color_priority = min(item_color_priority, message_colors.index(message))
+                                break
+                        
+                        display_name = '<span style="color:{};">{}</span> {}'.format(file_color, CIRCLE, item)
+                        
                     except Exception:
                         pass  # Ignore errors in file reading
 
                 # If it's a directory, add a collapsible folder
                 if os.path.isdir(full_path):
+
+                    sub_tree, sub_color_priority = build_tree(full_path)
                     
-                    sub_tree, sub_contains_error = build_tree(full_path)
-                    if sub_contains_error:
-                        triangle_style = f'"color:{RED};"'  # Mark directory if any file inside has "Error"
-                        item_contains_error = True
-                    else:
-                        triangle_style = f'"color:{GREEN};"'
+                    triangle_style = '"color:{};"'.format(color_priority[sub_color_priority])
                     
-                    html += f'<li class="folder" data-path="{unique_id}"><span class="toggle"><span id="triangle" style={triangle_style}>{TRIANGLE_RIGHT}</span><span> {item}</span></span>'
+                    dir_color_priority = min(dir_color_priority, sub_color_priority)
+                    
+                    html += '<li class="folder" data-path="{}"><span class="toggle"><span id="triangle" style={}>{}</span><span> {}</span></span>'.format(unique_id, triangle_style, TRIANGLE_RIGHT, item)
                     html += sub_tree
                     html += "</li>"
                 else:
-                    html += f'<li><a href="#" class="file-link" data-path="{relative_path}">{display_name}</a></li>'
+                    html += '<li><a href="#" class="file-link" data-path="{}">{}</a></li>'.format(relative_path, display_name)
                     
-                # If any file or subdirectory contains "Error", mark the parent directory
-                if item_contains_error:
-                    directory_contains_error = True
+                    # Keep in mind that item_color_priority is the index in message_color, we need to get the index in color_priority
+                    dir_color_priority = min(dir_color_priority, color_priority.index(message_colors[item_color_priority][1]))
 
             html += "</ul>"
-            return html, directory_contains_error
+            return html, dir_color_priority
 
-        return f'''{build_tree(base_path)[0]}'''
+        return '''{}'''.format(build_tree(base_path)[0])
     
 
 def main(server_class=HTTPServer, handler_class=CustomHandler, port=8000):
     server_address = ("", port)
     httpd = server_class(server_address, handler_class)
-    print(f"Serving on port {port}...")
-    #os.system("open \"\" 'http://localhost:{}".format(port))
+    print("Serving on port {}...".format(port))
+    webbrowser.open('http://localhost:{}'.format(port))
     httpd.serve_forever()
     
 

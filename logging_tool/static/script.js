@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-	const titleContainer = document.getElementById("file-title");
-    const contentContainer = document.getElementById("file-content");
+	const titleContainer = document.querySelector(".file-title");
+    const fileContentContainer = document.querySelector(".file-content");
 	const sidebarContainer = document.querySelector(".sidebar");
+	const sidebarContentContainer = document.querySelector(".sidebar-content");
 	const searchInput = document.getElementById("search"); // Sidebar search input
 	const folderStates = JSON.parse(localStorage.getItem("folderStates")) || {};
 	let isUserInteracting = false; // Flag to prevent auto-refresh conflicts
@@ -24,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
 				if (!fromUserClick && currentFilePath !== filePath) return; // Prevent outdated responses
 				titleContainer.innerText = decodeURIComponent(filePath); // Show relative path
 				
-                if (contentContainer.innerHTML !== newContent) {
-                    contentContainer.innerHTML = newContent; // Update only if content changed
+                if (fileContentContainer.innerHTML !== newContent) {
+                    fileContentContainer.innerHTML = newContent; // Update only if content changed
                 }
 				
 				if (updateHistory) {
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				tempContainer.innerHTML = newSidebar;
 				
                 // Update only changed parts
-                updateSidebar(sidebarContainer, tempContainer);
+                updateSidebar(sidebarContentContainer, tempContainer);
 				
 				restoreFolderStates(folderStates); // Restore states after update
                 attachSidebarListeners(); // Reattach event listeners after update
@@ -97,10 +98,16 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 	
 	function applySearchFilter(query) {
-        document.querySelectorAll(".sidebar li").forEach(item => {
-            const text = item.innerText.toLowerCase();
+        document.querySelectorAll(".sidebar-content li").forEach(item => {
+			let text = item.textContent.toLowerCase();
             if (text.includes(query)) {
                 item.style.display = "block";
+                // Ensure parent folders remain visible
+                let parent = item.parentElement;
+                while (parent && parent.classList.contains("folder")) {
+                    parent.style.display = "block";
+                    parent = parent.parentElement;
+                }
             } else {
                 item.style.display = "none";
             }
@@ -140,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Search functionality
     searchInput.addEventListener("input", function () {
         let filter = this.value.toLowerCase();
-        document.querySelectorAll(".sidebar ul li").forEach(item => {
+        document.querySelectorAll(".sidebar-content ul li").forEach(item => {
             let text = item.textContent.toLowerCase();
             if (text.includes(filter)) {
                 item.style.display = "block";
@@ -157,6 +164,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 	
 	
+	// Resizable Sidebar
+	let isResizing = false;
+	const resizeHandle = document.querySelector(".resize-handle");
+
+	resizeHandle.addEventListener("mousedown", (event) => {
+		isResizing = true;
+		resizeHandle.classList.add("active");
+		document.addEventListener("mousemove", resizeSidebar);
+		document.addEventListener("mouseup", stopResize);
+	});
+
+	function resizeSidebar(event) {
+		if (!isResizing) return;
+		let newWidth = event.clientX; // Get mouse X position
+		if (newWidth < 150) newWidth = 150; // Min width
+		if (newWidth > 500) newWidth = 500; // Max width
+		sidebarContainer.style.width = `${newWidth}px`;
+	}
+
+	function stopResize() {
+		isResizing = false;
+		resizeHandle.classList.remove("active");
+		document.removeEventListener("mousemove", resizeSidebar);
+		document.removeEventListener("mouseup", stopResize);
+	}
+	
+	
+	// Main
 	attachSidebarListeners()
 	
 	setInterval(fetchSidebarUpdate, 5000); // Refresh sidebar

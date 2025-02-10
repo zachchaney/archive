@@ -5,47 +5,104 @@
 body {
     display: flex;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.sidebar-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 280px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-    height: var(--sidebar-header-height); /* Adjust height as needed */
-    background: #333;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-	font-size: 20px;
-    z-index: 1000; /* Ensures it stays on top */
+    height: 100vh;
+	margin: 0;
+	
+	overflow: hidden; /* Prevents full-page scrolling */
+	background: #2C5072;
 }
 
 .sidebar {
-	position: fixed;
-	top: calc(var(--sidebar-header-height) + 20px); /* Offset by the height of the top box */
-    width: 260px;
-    background: #333;
-    color: white;
-    padding-left: 10px;
-	padding-right: 10px;
-    height: calc(100vh - var(--sidebar-header-height) - 20px); /* Full height minus top box */
+	width: 260px;
+	position: relative;
+	flex-direction: column;
+	display: flex;
+	
+	color: white;
+	background: #0D1929;
+	
+	box-sizing: border-box; /* Ensures padding is included in total width */
+}
+
+.sidebar-header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+    height: var(--sidebar-header-height);
+	text-align: center;
+}
+
+.sidebar-title {
+    font-weight: bold;
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.sidebar-key {
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.sidebar-search {
+    width: 100%;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.sidebar-search input {
+    width: 100%; /* Makes the input span the full width of .sidebar-search */
+    padding: 8px; /* Adjusts inner padding */
+    border: 1px solid #ccc; /* Adds a border */
+    border-radius: 4px; /* Slightly rounds the edges */
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.sidebar-content {
+	top: calc(var(--sidebar-header-height) + 10px); /* Offset by the height of the top box */
+    
+	flex: 1;
+	
+    /* padding-left: 10px; */
+    height: calc(100vh - var(--sidebar-header-height) - 10px); /* Full height minus top box */
 	
     overflow-y: auto;
 	transition: background 0.3s, color 0.3s;
 	scroll-behavior: smooth;
 	scrollbar-width: thin;
 	scrollbar-color: #888 #f0f0f0;
+	
+	background: #142338;
+	/* border-top:1px solid; */
+	/* border-bottom:1px solid; */
+	/* border-top-color: #ccc; */
+	/* border-bottom-color: #ccc; */
+}
+
+.resize-handle {
+    width: 6px;
+    cursor: ew-resize; /* Left-right resize cursor */
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+	
+	background: #ccc;
+	opacity: 0;
+    transition: opacity 0.2s ease-in-out; /* Smooth fade-in effect */
+}
+
+.resize-handle:hover, .resize-handle.active {
+    opacity: 1; /* Keep visible when hovered */
 }
 
 .sidebar a:hover, .sidebar span:hover {
     color: white;
-    background: #6f6f6f;
-    border-radius: 5px; /* Optional: Rounded corners */
+    background: #5AA6DA;
+    border-radius: 5px; /* Rounded corners */
 }
 
 .sidebar h2 {
@@ -84,25 +141,30 @@ body {
 }
 
 .content {
-    flex-grow: 1;
-    padding: 20px;
+    flex: 1;
+    padding-left: 20px;
+	padding-right: 20px;
 	
-    margin-left: 280px; /* Same as sidebar width + its padding*/
+	height: 100vh; /* Ensures it fills the viewport height */
+	overflow-y: auto; /* Enables scrolling for main content */
+}
+
+.file-title {
+	flex: 1;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.file-content {
+	flex: 1;
+	
+	border: 1px solid #2a2a2a; /* Adds a border */
 }
 
 pre {
     background: #f4f4f4;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     white-space: pre-wrap;
-}
-
-search {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-	
-	display: block;
 }
