@@ -29,6 +29,9 @@ message_colors = [("Override button pressed!", COLOR_OVERRIDE),
 # The colors will bubble up given this priority
 color_priority = [COLOR_UNKNOWN, COLOR_FAILURE, COLOR_OVERRIDE, COLOR_RETRY, COLOR_SUCCESS]
 
+# This is a nested dictionary with contents {<full_path>: {"message_color": <color>, "timestamp": <mtime>}, ...}
+# This will save the modified date of the files so that we only look through the files that have been modified
+sidebar_files = {}
 
 # ANSI escape code to HTML style mapping
 ANSI_COLORS = {
@@ -52,7 +55,6 @@ ANSI_COLORS = {
     "4": "text-decoration: underline;",
 }
 
-# ANSI_ESCAPE_RE = re.compile(r'\\u001b\[(\d+)(?:;(\d+))?(?:;(\d+))?m')
 ANSI_ESCAPE_RE = re.compile(r'\[([1-9]+)(?:;(\d+))?(?:;(\d+))?m')
 
 # Used as a unique identifier for JavaScript
@@ -187,22 +189,31 @@ class CustomHandler(SimpleHTTPRequestHandler):
                 item_contains_error = False  # Track errors for this item
                 item_color_priority = len(color_priority)-1
 
-                # If it's a file, check for "Error"
+                # If it's a file, check for error messages
                 if os.path.isfile(full_path):
-                    try:
-                        with open(full_path, "r", encoding="utf-8") as f:
-                            content = f.read()
-                            
+                    
+                    last_modified = os.path.getmtime(full_path)
+                    
+                    if full_path in sidebar_files and last_modified == sidebar_files[full_path]["timestamp"]:
+                        file_message_color = sidebar_files[full_path]["message_color"]
+                        
+                    else:
+                        
+                        try:
+                            with open(full_path, "r", encoding="utf-8") as f:
+                                content = f.read()
+                        except Exception:
+                            pass  # Ignore errors in file reading
+                        
                         for message in message_colors:
                             if message[0] in content:
-                                file_color = message[1]
-                                item_color_priority = min(item_color_priority, message_colors.index(message))
+                                file_message_color = message
+                                sidebar_files[full_path] = {"message_color": message, "timestamp": last_modified}
                                 break
-                        
-                        display_name = '<span style="color:{};">{}</span> {}'.format(file_color, CIRCLE, item)
-                        
-                    except Exception:
-                        pass  # Ignore errors in file reading
+                                
+                    item_color_priority = min(item_color_priority, message_colors.index(file_message_color))
+                    
+                    display_name = '<span style="color:{};">{}</span> {}'.format(file_message_color[1], CIRCLE, item)
 
                 # If it's a directory, add a collapsible folder
                 if os.path.isdir(full_path):
